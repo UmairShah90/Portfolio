@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./../index.css";
+import "../../index.css";
+import './navbar.css'
 import { motion } from "framer-motion";
 import { animateScroll as scroll, Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";

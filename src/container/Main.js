@@ -1,14 +1,15 @@
-import React, { useEffect, useContext } from "react";
-import Home from "../components/Home";
-import Nav from "../components/Nav";
+import React, { useEffect } from "react";
+import Home from "../components/Home/Home";
+import Nav from "../components/Navbar/Nav";
 import "./../index.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Services from "../components/Services";
-import Skills from "../components/Skills";
-import Portfolio from "../components/Portfolio";
-import Contact from "../components/Contact";
-import Footer from "../components/footer";
+import Services from "../components/Services/Services";
+import Skills from "../components/Skills/Skills";
+import Portfolio from "../components/Portfolio/Portfolio";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
+// import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 function Main() {
 
@@ -18,7 +19,7 @@ function Main() {
   }, []);
   return (
     <div className="main-container">
-    {/* <ThemeProvider> */}
+    
       <Nav />
       <Home />
       <Services />
@@ -26,7 +27,7 @@ function Main() {
       <Portfolio />
       <Contact />
       <Footer />
-      {/* </ThemeProvider> */}
+      
     </div>
   );
 }

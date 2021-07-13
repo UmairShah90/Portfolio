@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./../index.css";
-import man from "./../images/man.png";
+import "../../index.css";
+import man from "../../images/man.png";
+import './home.css';
 import { motion, AnimatePresence } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
@@ -132,9 +133,9 @@ const Home = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://drive.google.com/file/d/1jyK_D9I1FpSHM_EuYks3RDHzxuHYDIle/view?usp=sharing"
+          href="https://drive.google.com/file/d/1of6_H-3wMouBc0oUihCpX8qmeMsH9q4r/view?usp=sharing"
         >
-          <button className="button" onClick={() => scroll.scrollToBottom()}>
+          <button  className="button1" onClick={() => scroll.scrollToBottom()}>
             See My Resume
           </button>
         </a>

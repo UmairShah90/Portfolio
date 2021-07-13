@@ -1,7 +1,8 @@
 import React from 'react'
-import webImage from './../images/web.svg'
-import uiImage from './../images/ui.svg'
-import "./../index.css";
+import webImage from '../../images/web.svg'
+import uiImage from '../../images/ui.svg'
+import "../../index.css";
+import './services.css';
 
 function Services() {
     return (
@@ -19,14 +20,14 @@ function Services() {
        <div className="services">
        <li>
           <img src={webImage} alt="" />
-          <p>Web Development</p>
+          <p>Frontend Web Development</p>
        </li>
        </div>
 
        <div className="services">
            <li>
                <img src={uiImage} alt="" />
-               <p>Mobile Development</p>
+               <p>React JS Development</p>
            </li>
        </div>
          

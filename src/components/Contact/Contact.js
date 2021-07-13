@@ -1,5 +1,6 @@
 import React from 'react'
-import './../index.css'
+import '../../index.css'
+import './contact.css'
 import { FiMail,FiGlobe,FiInstagram } from 'react-icons/fi'
 import { FaGithub,FaFacebookF,FaLinkedin,FaWhatsapp,FaPhoneAlt } from 'react-icons/fa'
 

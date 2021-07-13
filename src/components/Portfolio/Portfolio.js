@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import "./../index.css";
+import "../../index.css";
+import './portfolio.css'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const boxVariants = {
@@ -121,7 +122,7 @@ function Portfolio() {
 
           <div className="project-links">
             <div className="text">
-              <h3>Covid-19 Web Design </h3>
+              <h3>Covid-19 Web Design (no-responsive) </h3>
             </div>
 
             <div className="icons">
@@ -231,7 +232,7 @@ function Portfolio() {
             </div>
           </div>
         </motion.div>
-        {/* project 3: Todo App */}
+        {/* project 3: Food Web Design */}
         <motion.div
           className="projects"
           whileHover="hover"
@@ -240,21 +241,21 @@ function Portfolio() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://umairshah90.github.io/Todo-App/"
+            href="https://github.com/UmairShah90/Food-web-store"
           >
-            <div className="projects-images" id="todoApp"></div>
+            <div className="projects-images" id="foodApp"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Todo App Using JS</h3>
+              <h3>Food Web Design (Fully Responsive)</h3>
             </div>
 
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/UmairShah90/Todo-App"
+                href="https://github.com/UmairShah90/Food-web-store"
               >
                 <i>
                   <FaGithub id="github" size={30} />{" "}
@@ -264,7 +265,7 @@ function Portfolio() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://umairshah90.github.io/Todo-App/"
+                href="https://food-web-design.netlify.app/"
               >
                 <i>
                   <FaExternalLinkAlt id="live" size={30} />{" "}
@@ -276,7 +277,7 @@ function Portfolio() {
 
       
 
-        {/* Project 3 - Snake Game */}
+        {/* Project 3 - React Dashboard */}
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -285,21 +286,21 @@ function Portfolio() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/UmairShah90/Snake-Game-Using-JavaScript"
+            href="https://github.com/UmairShah90/React_Dashboard"
           >
-            <div className="projects-images" id="snakeGame"></div>
+            <div className="projects-images" id="dashboard"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Snake Game Using JS</h3>
+              <h3>React Dashboard Design (not-responsive)</h3>
             </div>
 
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://github.com/UmairShah90/Snake-Game-Using-JavaScript"
+                href="https://github.com/UmairShah90/React_Dashboard"
               >
                 <i>
                   <FaGithub id="github" size={30} />{" "}
@@ -309,7 +310,7 @@ function Portfolio() {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://umairshah90.github.io/Snake-Game-Using-JavaScript/"
+                href="https://react-dashboard-1.netlify.app/"
               >
                 <i>
                   <FaExternalLinkAlt id="live" size={30} />{" "}
