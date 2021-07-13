@@ -6,13 +6,13 @@ function footer() {
     return (
         <div className="footer-container">
         <h2>
-            Developer💻 : {" "}
+            Developer<span role="img" aria-label="">💻</span>  : {" "}
             <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/UmairShah90"
             >
-            Umair Zafar 😍
+            Umair Zafar <span role="img" aria-label="">😍</span> 
 
             </a>{" "}
         </h2>
